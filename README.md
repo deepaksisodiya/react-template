@@ -13,6 +13,13 @@ This is a template for bootstrapping React projects quickly with a predefined se
 - **Pre-commit Hooks with Husky**: Automatically run linting and formatting checks before each commit.
 - **Vitest**: Unit testing framework optimized for Vite projects.
 
+**Additional Testing Dependencies**:
+
+- **@testing-library/jest-dom**: Provides custom Jest matchers for asserting on DOM elements.
+- **@testing-library/react**:provides utilities for testing React components with a user-centric approach and seamless integration with Vitest, emphasizing accessibility and simulating user interactions.
+- **@testing-library/user-event**: Simulates user events for testing React components.
+- **jsdom**: A JavaScript implementation of the DOM for Node.js, used for testing React components in a simulated environment.
+
 ## How to Use
 
 You can use `npx degit` to clone this template without the commit history:

@@ -15,6 +15,7 @@ This is a template for bootstrapping React projects quickly with a predefined se
 - **Environment Variables Support**: Includes support for environment variables using .env.local and .env.production files for managing configuration settings across local and production environments.
 - **Axios**: Promise-based HTTP client for making asynchronous requests in browser and Node.js environments.
 - **SVG Icon Support with vite-plugin-svgr**: Easily include SVG icons in your project using the vite-plugin-svgr plugin.
+- **Material-UI**: Integrated Material-UI, an open-source React component library that implements Google's Material Design.
 - **Vitest**: Unit testing framework optimized for Vite projects.
 - **MSW**: MSW (Mock Service Worker): Industry-standard API mocking library for seamless, client-agnostic mocks across frameworks and environments.
 

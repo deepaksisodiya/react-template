@@ -11,6 +11,7 @@ This is a template for bootstrapping React projects quickly with a predefined se
 - **VS Code Settings**: Recommended settings for Visual Studio Code to enhance development experience.
 - **TypeScript**: Typed superset of JavaScript for building scalable applications.
 - **Pre-commit Hooks with Husky**: Automatically run linting and formatting checks before each commit.
+- **Environment Variables Support**: Includes support for environment variables using .env.local and .env.production files for managing configuration settings across local and production environments.
 - **Vitest**: Unit testing framework optimized for Vite projects.
 
 **Additional Testing Dependencies**:

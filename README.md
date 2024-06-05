@@ -15,6 +15,7 @@ This is a template for bootstrapping React projects quickly with a predefined se
 - **Axios**: Promise-based HTTP client for making asynchronous requests in browser and Node.js environments.
 - **SVG Icon Support with vite-plugin-svgr**: Easily include SVG icons in your project using the vite-plugin-svgr plugin.
 - **Vitest**: Unit testing framework optimized for Vite projects.
+- **MSW**: MSW (Mock Service Worker): Industry-standard API mocking library for seamless, client-agnostic mocks across frameworks and environments.
 
 **Additional Testing Dependencies**:
 

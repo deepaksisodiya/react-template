@@ -2,7 +2,6 @@ import Navigation from './Navigation';
 import { Outlet } from 'react-router-dom';
 import Logo from './assets/react.svg';
 import Todos from './modules/todos/Todos';
-
 import Button from '@mui/material/Button';
 
 import '@fontsource/roboto/300.css';

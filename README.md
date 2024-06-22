@@ -8,7 +8,7 @@ This is a template for bootstrapping React projects quickly with a predefined se
 - **ESLint**: Pluggable linting utility for JavaScript and TypeScript.
 - **Prettier**: Opinionated code formatter to maintain consistent code style.
 - **React-Router-dom**: Declarative routing for React applications.
-- **Redux**: Redux: A predictable state container for managing the application state.
+- **Redux**: A predictable state container for managing the application state.
 - **VS Code Settings**: Recommended settings for Visual Studio Code to enhance development experience.
 - **TypeScript**: Typed superset of JavaScript for building scalable applications.
 - **Pre-commit Hooks with Husky**: Automatically run linting and formatting checks before each commit.

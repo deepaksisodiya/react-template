@@ -1,7 +1,7 @@
 import { createBrowserRouter } from 'react-router-dom';
 import App from '../App.tsx';
-import About from '../about/About.tsx';
-import Contact from '../contact/Contact.tsx';
+import About from '../modules/about/About.tsx';
+import Contact from '../modules/contact/Contact.tsx';
 import ErrorPage from './ErrorPage.tsx';
 
 const router = createBrowserRouter([

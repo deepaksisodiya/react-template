@@ -1,20 +1,9 @@
 import Navigation from './Navigation';
 import { Outlet } from 'react-router-dom';
 import Logo from './assets/react.svg';
-import { useState, useEffect } from 'react';
-import axios from 'axios';
+import Todos from './modules/todos/Todos';
 
 function App() {
-  const [todos, setTodos] = useState([]);
-  const [count, setCount] = useState(0);
-
-  useEffect(() => {
-    axios.get('https://dummyjson.com/todos').then(response => {
-      setTodos(response.data.todos);
-      setCount(response.data.total);
-    });
-  }, []);
-
   return (
     <>
       <Navigation />
@@ -25,15 +14,7 @@ function App() {
         <Outlet />
       </div>
 
-      <h1>Todo List</h1>
-      <h2>Total Todos: {count}</h2>
-      <div>
-        {todos.map((todo, index) => (
-          <li key={index}>
-            {todo.todo} - Completed: {todo.completed ? 'Yes' : 'No'}
-          </li>
-        ))}
-      </div>
+      <Todos />
     </>
   );
 }
